@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Checkout Form</title>
+    <link rel="stylesheet" href="assests/css/checkout_style.css" />
+    <link rel="shortcut icon" href="assests/images/favicon/mst.png" type="image/x-icon" />
+    <meta name="description" content="checkout form" />
+    <meta name="keywords" content="checkout form" />
+</head>
+<div class="main_content">
+    <div class="header_content">
+    <div class="heading_text"><h2>MST Software Farm</h2></div>
+    <div class="search_product">
+        <input type="search" name="search_product" id="search_product" placeholder="search product" />
+    </div>
+    </div>
+    <div class="nav-section">
+    <nav>
+        <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">Cart</a></li>
+        <li><a href="#">Checkout</a></li>
+        <li><a href="#">Shop</a></li>
+        <li><a href="#">My Account</a></li>
+        <li><a href="#">Contact us</a></li>
+        <div class="cart_item_total_tk">
+        <label>$100.00 <small>2 items</small></label>
+        </ul>
+    </nav>
+    </div>
+    <!-- checkout_section_start -->
+    <div class="checkout_w_70">
+        <div class="checkout_section">
+        <div class="checkout_heading">
+            <h3>Checkout</h3>
+        </div>
+        <div class="coupon">
+            <small> Have a coupon? Click here to enter  your code</small>
+        </div>
+    </div>
+    <!-- billing_section -->
+    <div class="billing_section">
+        <div class="billing_text">
+            <h3>Billing Details</h3>
+        </div>
+        <div class="form_section">
+            <form action="paymet_gateway.html" method="get">
+            <div class="input_name"> 
+                <label for="first_name">Your Name<sup>*</sup></label>  <br>
+                <input type="text" name="first_name" id="first_name"   required >
+            </div> 
+            <div class="input_name">
+                <label for="c_name">Company Name</label>  <br>
+                <input type="text" name="c_name" id="c_name"   >
+            </div> 
+            <div class="input_name">
+                <label for="email">Email<sup>*</sup</label>  <br>
+                <input type="email" name="email" id="email"   required>
+            </div> 
+            <div class="input_name">
+                <label for="phone">Phone<sup>*</sup</label>  <br>
+                <input type="number" name="phone" id="phone"   required>
+            </div>
+            <div class="country_option">
+                <label for="country">Select Country<sup>*</sup</label> <br>
+                <select name="country" id="country">
+                    <option value="Bangladesh">Bangladesh</option>
+                    <option value="usa">USA</option>
+                    <option value="Bangladesh">India</option>
+                    <option value="Bangladesh">Arab</option>
+                    <option value="Bangladesh">Egipt</option>
+                </select>
+            </div> 
+            <div class="address">
+                <label for="address">Street Address<sup>*</sup</label> <br>
+                <textarea name="address" id="address" cols="30" rows="1" placeholder="House no & street name"></textarea>
+            </div> 
+            <div class="input_name">
+                <label for="town">Town / City<sup>*</sup </label>  <br>
+                <input type="text" name="town" id="town"  " >
+            </div> 
+        <!-- <div class="state_option">
+                <label for="country">Select State<sup>*</sup</label> <br>
+                <select name="country" id="country">
+                    <option value="Bangladesh">Bangladesh</option>
+                    <option value="usa">USA</option>
+                    <option value="Bangladesh">India</option>
+                    <option value="Bangladesh">Arab</option>
+                    <option value="Bangladesh">Egipt</option>
+                </select>
+        </div>  -->
+            <div class="input_name">
+                <label for="zip_code">ZIP Code<sup>*</sup</label>  <br>
+                <input type="number" name="zip_code" id="zip_code"  required>
+            </div> 
+            </form>
+            <div class="other_shipping">
+                <div class="shipping_text">
+                    <h3>Ship to a different address? <input type="checkbox" name="different_address" id="different_address"></h3>
+                </div>
+                <div class="other_address">
+                <label for="other_address">Order Notes</label> <br>
+                <textarea name="other_address" id="other_address" cols="30" rows="1" placeholder="Others address"></textarea>
+            </div>
+            </div>
+        </div>
+    </div>
+    <div class="order_section">
+        <div class="order_text">
+            <h3 style="color: #a0a0a0;">Your Orders</h3>
+        </div>
+        <div class="form_section">
+            <form action="paymet_gateway.html" method="get">
+                <table>
+                    <thead>
+                        <tr>
+                        <th>Product</th>
+                        <th>Quantity</th>
+                        <th>Total</th>
+                    </tr>
+                    </thead>
+                    <tr>
+                        <td>MS Office 2022 </td>
+                        <td><strong>1</strong></td>
+                        <td>$200.00</td>
+                    </tr>
+                    <tr>
+                        <td>Adobe CS6 </td>
+                        <td><strong>2</strong></td>
+                        <td>$300.00</td>
+                    </tr>
+                    <tr>
+                        <th>Subtotal</th>
+                        <td class="tk"></td>
+                        <td class="tk">$500.00</td>
+                    </tr>
+                    <tr>
+                        <th>Shipping</th>
+                        <td class="tk"></td>
+                        <td class="tk">$25.00</td>
+                    </tr>
+                    <tr>
+                        <th>Total</th>
+                        <td class="tk"></td>
+                        <th class="tk">$525.00</th>
+                    </tr>
+                </table>
+            </form>
+            <!-- payment_method -->
+            <div class="payment_method">
+                <div class="payment_system">
+                    <strong> What is paypal? <a href="payment_method.html"><img src="assests/images/payment card.png" alt=""></a>  </strong>
+                </div>
+                <div class="payment-description">
+                    <p>Paypal via Paypal! you can pay only with your credit card, If you don't have a paypal account</p>
+                </div>
+            </div>
+            <div class="payment_button">
+               <a href="paymet_gateway.html"><input type="submit" value="Proced to Pay" ></a> 
+            </div>
+        </div>
+    </div>
+    </div>
+    <!-- 30%_width_start -->
+    <div class="checkout_w_30">
+        <div class="search">
+        <input type="search" name="search_product" id="search_product" placeholder="search product" />
+    </div>
+    <div class="comment">
+        <p>Recent Comment</p>
+        <div class="comment_text"><a href="#">A wordpress commenter on!Hello world</a> </div>
+    </div>
+    <div class="archives">
+        <p>Archives</p>
+        <small>September 2017</small>
+    </div>
+    <div class="categories">
+        <p>Categories</p>
+        <small>Web Development</small>
+    </div>
+    <div class="meta">
+        <p>Meta</p>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Blog </a></li>
+            <li><a href="#">Wordpress</a></li>
+            <li><a href="#">Admin</a></li>
+        </ul>
+    </div>
+    </div>
+  
+    </div>
+</div>
+<body></body>
+</html>

@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+.main_container {
+  width: 50%;
+  margin: 40px auto;
+  background: lightgray;
+  box-sizing: border-box;
+  height: 650px;
+  border-radius: 10px;
+}
+.main_container .heading {
+  font-family: sans-serif;
+  padding-top: 30px;
+  text-align: center;
+}
+/* payment-method */
+.payment_method {
+  width: 100%;
+  height: auto;
+  margin-top: 20px;
+}
+.content-heading {
+  margin-top: 10px;
+  border-bottom: 2px solid lightcyan;
+  line-height: 25px;
+}
+.content-heading h3 {
+  text-align: center;
+}
+/* left-side */
+.left_side_w-32 {
+  display: inline-block;
+  float: left;
+  width: 32%;
+  height: auto;
+  margin-left: 23px;
+}
+.card_logo {
+  width: 80%;
+  height: 40px;
+  padding: 11px;
+}
+.banklogo {
+  width: 90%;
+  height: auto;
+  background: #fff;
+  margin-top: 20px;
+  border-radius: 22px;
+  box-shadow: 8px 9px 13px rgba(3, 5, 5, 0.5);
+}
+.banklogo:hover {
+  transform: scale(1.1);
+}
+
+/* middl_sitebar */
+.middle_w-32 {
+  width: 32%;
+  display: inline-block;
+  height: auto;
+  float: left;
+}
+.cardlogo {
+  width: 90%;
+  height: auto;
+  background: #fff;
+  margin-top: 20px;
+  border-radius: 22px;
+  box-shadow: 8px 9px 13px rgba(3, 5, 5, 0.5);
+}
+.cardlogo:hover {
+  transform: scale(1.1);
+}
+.discount {
+  margin-top: 40px;
+  width: 90%;
+  border: 2px solid lightseagreen;
+  background: lavender;
+  padding: 35px 2px;
+  height: auto;
+  color: red;
+  font-size: 20px;
+}
+/* right-sidebr */
+.right_side_w-32 {
+  display: inline-block;
+  width: 32%;
+  height: auto;
+}
+.cardicon {
+  width: 90%;
+  height: auto;
+  background: #fff;
+  margin-top: 20px;
+  border-radius: 22px;
+  box-shadow: 8px 9px 13px rgba(3, 5, 5, 0.5);
+}
+.cardicon:hover {
+  transform: scale(1.1);
+}
+.left_side_w-46 h3 {
+  text-align: center;
+}

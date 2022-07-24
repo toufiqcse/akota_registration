@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="keyword" content="registration, form, sign up, sign up form" />
+    <meta name="description" content="registration form" />
+    <title>Registration Form</title>
+    <link rel="shortcut icon" href="assests/images/favicon/mst.png" type="image/x-icon" />
+    <link rel="stylesheet" href="assests/css/registration_style.css" />
+  </head>
+  <body>
+    <div class="main_content">
+      <div class="heading">
+        <h1>Registration Form</h1>
+      </div>
+      <!-- form_section start -->
+      <div class="input_form">
+        <form action="#" method="get" enctype="multipart/form-data">
+          <table>
+            <tr>
+              <td><label for="name">First Name</label></td>
+              <td>:</td>
+              <td><input type="text" name="first_name" id="name" placeholder="Enter your first name" required /></td>
+            </tr>
+            <tr>
+              <td><label for="name">Last Name</label></td>
+              <td>:</td>
+              <td><input type="text" name="last_name" id="name" placeholder="Enter your last name" /></td>
+            </tr>
+            <tr>
+              <td><label for="email">Email</label></td>
+              <td>:</td>
+              <td><input type="email" name="email" id="email" placeholder="Enter your email" required /></td>
+            </tr>
+            <tr>
+              <td><label for="number">Phone Number</label></td>
+              <td>:</td>
+              <td>
+                <input type="number" name="number" id="number" placeholder="Enter your number" required />
+              </td>
+            </tr>
+            <tr>
+              <td>Password</td>
+              <td>:</td>
+              <td><input type="password" name="password" id="password" placeholder="Enter your password" /></td>
+            </tr>
+            <tr>
+              <td>Confirm Password</td>
+              <td>:</td>
+              <td><input type="password" name="password" id="password" placeholder="Confirm password" /></td>
+            </tr>
+            <tr>
+              <td>Gender</td>
+              <td>:</td>
+              <td>
+                <input type="radio" name="gender" id="gender" value="male" /> Male
+                <input type="radio" name="gender" id="gender" value="male" /> Female
+              </td>
+            </tr>
+            <tr>
+              <td>Intersted With</td>
+              <td>:</td>
+              <td>
+                <input type="checkbox" name="qualiication" id="qualiication" /> Programming
+                <input type="checkbox" name="qualiication" id="qualiication" /> App Development
+              </td>
+            </tr>
+          </table>
+        </form>
+        <!-- form_section end -->
+        <!-- terms_&_condition_start -->
+        <div class="input_check">
+          <input type="checkbox" class="check-button" id="terms" name="terms" />
+          <label for=""> I Accept Terms & Condition</label>
+          <span>
+            <input type="checkbox" class="check-button" id="remember" name="remember" />
+            <label for=""> Remember me</label>
+          </span>
+        </div>
+        <!-- terms_&_condition_end -->
+        <!-- buuton_section_start -->
+        <div class="submit">
+          <input type="submit" value="Register" id="submit" name="submit" />
+        </div>
+        <!-- buuton_section_start -->
+        <!-- login_pannel_start -->
+        <div class="login_access">
+          <p>Already have an account? <a href="login.html">login </a>here</p>
+        </div>
+        <!-- login_pannel_end -->
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,160 @@
+* {
+  margin: 0;
+  padding: 0;
+
+  font-family: sans-serif;
+}
+
+/* body {
+  background: red;
+}
+body:after {
+  content: "";
+  background: blue;
+  position: fixed;
+  top: 0;
+  bottom: 50%;
+  right: 0;
+  left: 0;
+  content: " ";
+  z-index: -1;
+} */
+
+.main-container {
+  width: 76%;
+  height: 585px;
+  margin: 50px auto;
+  background-image: linear-gradient(to bottom right, #dfeaf0 50%, #014a97 50%);
+}
+.main-container h1 {
+  color: #0166b4;
+  text-align: center;
+  padding-top: 5px;
+}
+.content_body {
+  width: 75.5%;
+  height: 435px;
+  background: #014a97;
+  margin: 40px auto;
+}
+/* left_side */
+.payment_card_logo {
+  width: 49%;
+  height: 550px;
+  display: inline-block;
+  float: left;
+}
+.card-logo {
+  display: inline-block;
+}
+.payment_heading {
+  margin-top: 23px;
+  display: block;
+  text-align: center;
+}
+.payment_heading a {
+  color: #fff;
+  text-decoration: none;
+}
+.card-logo img {
+  width: 342px;
+  height: 175px;
+  margin-left: 19px;
+  margin-top: 76px;
+}
+.payment-details {
+  width: 100%;
+  height: auto;
+}
+.payment_navbar ul {
+  display: flex;
+}
+.payment_navbar ul li {
+  list-style-type: none;
+  padding: 12px;
+  margin-top: 10px;
+}
+.payment_navbar ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+.selected_nav-heading {
+  display: block;
+  color: #fff;
+  padding-top: 17px;
+}
+.selected_nav-heading h3 {
+  text-align: center;
+}
+.card-details {
+  height: auto;
+  margin-top: 22px;
+  width: 316px;
+  background: #0166b4;
+  margin-left: 537px;
+  padding: 13px;
+  border-radius: 24px;
+  box-shadow: 5px 6px 8px rgba(3, 5, 6, 0.4);
+}
+.card-details form label {
+  display: block;
+  margin-top: 5px;
+  color: #fff;
+  font-size: 12px;
+}
+.card-details form input {
+  line-height: 25px;
+  outline: none;
+  width: 96%;
+  padding: 4px;
+  background: none;
+  border: none;
+  border-bottom-color: currentcolor;
+  border-bottom-style: none;
+  border-bottom-width: medium;
+  border-bottom: 2px solid #fff;
+  color: #fff;
+}
+.input-date {
+  display: inline-block;
+  display: flex;
+}
+.input-date label {
+  display: block;
+}
+#date_field {
+  display: block;
+  display: block;
+  margin-top: 11px;
+  padding-left: 4px;
+}
+#month_field {
+  width: 60%;
+  font-size: 15px;
+  text-align: center;
+}
+#card-number {
+  margin-top: 10px;
+}
+.amount_section {
+  margin-top: 10px;
+}
+.amount_section h4 {
+  color: #fff;
+  text-align: center;
+  padding: 5px;
+  font-size: 10px;
+}
+#submit {
+  background: #fff;
+  color: #0166b4;
+  padding: 8px;
+  width: 62%;
+  text-align: center;
+  font-size: 23px;
+  border-radius: 22px;
+  display: inherit;
+  margin: 10px auto;
+  cursor: pointer;
+  box-shadow: 8px 9px 13px rgba(3, 5, 5, 0.5);
+}

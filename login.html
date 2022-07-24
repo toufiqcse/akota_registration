@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Form</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="assests/css/login_style.css" />
+  </head>
+  <body>
+    <div class="main_container">
+      <div class="main_content_body">
+        <div class="logo_side_w50">
+          <div class="logo">
+            <img src="assests/images/quest-room-escape-room-tiny-people-trying-solve-puzzles-find-key-gettout-trap_501813-867.webp" alt="" />
+          </div>
+        </div>
+        <div class="login_side_w50">
+          <div class="logo_icon">
+            <img src="assests/images/user_1.jpg" alt="" />
+          </div>
+          <div class="heading">
+            <h2>WELCOME</h2>
+          </div>
+          <div class="form_section">
+            <form action="checkout_form.html" method="get">
+              <div class="input_name">
+                <label for="name-field"><i class="fa-solid fa-user"></i></label>
+                <input type="text" name="name_field" id="name_field" required placeholder="username" />
+              </div>
+              <div class="input_name">
+                <label for="name-field"><i class="fa-solid fa-lock"></i></label>
+                <input type="password" name="name_field" id="name_field" required placeholder="password" />
+              </div>
+              <div class="forgot">
+                <a href="#"><p>Forgot password?</p></a>
+              </div>
+              <div class="submit-btn">
+                <input type="submit" value="Login" id="login_btn" />
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

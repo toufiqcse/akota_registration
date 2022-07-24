@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+body {
+  background-color: lightslategray;
+}
+.heading {
+  color: rgb(26, 24, 24);
+  padding: 10px;
+}
+.heading h1 {
+  text-align: center;
+}
+/* main_content_section */
+.main_content {
+  background: rgb(255, 255, 255);
+  padding: 40px;
+  margin: 50px auto 0;
+  width: 40%;
+  border-top: 6px solid blue;
+  box-shadow: 0 0 8px 7px lightgray;
+  height: 630.6px;
+}
+/* form-section */
+form {
+  margin: 0 auto;
+}
+.input_form form table tr td {
+  font-size: 18px;
+  padding: 5px;
+  line-height: 30px;
+}
+.input_form form table {
+  margin: 0 auto;
+}
+.main_content input[type="text"] {
+  width: 100%;
+  height: 30px;
+  outline: none;
+  border: none;
+  padding: 5px;
+  border-bottom: 2px solid lightslategray;
+  font-size: 16px;
+}
+.main_content input[type="email"] {
+  width: 100%;
+  height: 30px;
+  outline: none;
+  border: none;
+  padding: 5px;
+  border-bottom: 2px solid lightslategray;
+  font-size: 16px;
+}
+.main_content input[type="number"] {
+  width: 100%;
+  height: 30px;
+  outline: none;
+  border: none;
+  padding: 5px;
+  border-bottom: 2px solid lightslategray;
+  font-size: 16px;
+}
+.main_content input[type="password"] {
+  width: 100%;
+  height: 30px;
+  outline: none;
+  border: none;
+  padding: 5px;
+  border-bottom: 2px solid lightslategray;
+  font-size: 16px;
+}
+.main_content input[type="radio"] {
+  width: 20px;
+  height: 20px;
+}
+.main_content input[type="checkbox"] {
+  width: 18px;
+  height: 18px;
+}
+.main_content input[type="submit"] {
+  background-color: lightblue;
+  width: 161px;
+  height: 33px;
+  font-size: 20px;
+  font-weight: 400;
+  border-radius: 6px;
+}
+/* btn-section */
+.submit {
+  text-align: center;
+  margin-top: 10px;
+  cursor: pointer;
+}
+.main_content input[type="submit"]:hover {
+  background-color: lightgreen;
+  box-shadow: 0 0 3px 2px lightpink;
+}
+/* login-pannel */
+.login_access {
+  text-align: center;
+  padding: 5px;
+  margin-top: 10px;
+}
+.login_access a {
+  text-decoration: none;
+}
+/* terms_condition-section */
+.check-button {
+  margin: 5px 6px auto;
+}
+
+.check-button label {
+  font-size: 18px;
+}
+.input_check {
+  padding: 8px;
+  margin-left: 50px;
+}
+.input_check span {
+  margin-left: 75px;
+}
